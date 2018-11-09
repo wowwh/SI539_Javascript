@@ -1,4 +1,6 @@
-window.addEventListener("mousemove",cs,false); 
+var touch =("createTouch" in document);
+var MoveEvent = touch ? "touchmove" : "mousemove"; 
+window.addEventListener(MoveEvent,cs,false); 
 var x,y;    
 var z=7;
 function show(){
