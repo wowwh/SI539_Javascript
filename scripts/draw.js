@@ -1,6 +1,6 @@
 //var touch =("createTouch" in document);
 //var MoveEvent = touch ? "touchmove" : "mousemove"; 
-window.addEventListener("touchmove mousemove",cs,false); 
+window.addEventListener("mousemove",cs,false); 
 var x,y;    
 var z=7;
 function show(){
